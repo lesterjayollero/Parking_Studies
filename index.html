@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Parking Studies explained by Lester Jay Ollero, including parking patrol survey, types of parking, parking requirements in accordance to National Building Code, Quezon City Local Code, Pasay City Local Code, Muntinlupa City Local Code, DHSUD.">
+<meta name="author" content="Lester Jay Ollero">
+<title>PARKING STUDIES</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+     <!--- CSS --->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<!-- =======================
+SIDEBAR
+======================== -->
+
+<aside class="sidebar">
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#intro">Introduction</a></li>
+<li><a href="#occupancy">Parking Bays and Occupancy Computation</a></li>
+<li><a href="#out">In and Out Parking Survey</a></li>
+<li><a href="#patrol">Parking Patrol Survey</a></li>
+<li><a href="#geometry">Different Types of Parking</a></li>
+<li><a href="#requirements">Parking Requirements</a></li>
+</ul>
+
+</aside>
+
+<!-- =======================
+CONTENT
+======================== -->
+
+<main>
+<div class="hero">
+<h1>
+TRAFFIC<br>
+SHOCKWAVES
+</h1>
+
+</div>
+
+<!-- ===================== -->
+<section id="intro">
+<h2>Introduction</h2>
+<p>
+Parking Studies help determine how much parking is available, how it is being used, and whether existing parking facilities are sufficient to meet demand.
+</p>
+
+  <div class="model-text">
+        <p>This section introduces fundamental parking survey methods, parking performance indicators, on-street parking configurations, and parking requirements used in planning and development studies.</p>
+    </div>
+
+</section>
+
+<!-- ===================== -->
+
+<section id="occupancy">
+<h2>Parking Bays and Occupancy</h2>
+  <p>A parking study evaluates the characteristics of parking within a specific area, facility, street, or development. It provides information about parking supply, demand, duration, turnover, and utilization.</p>
+  <div class="model-text">
+        <h3>1.Backward Shockwave</h3>
+  </div>
+    
+    <div class="model-text">
+        <p>Car move forward but the traffic jam moves backward (<em>The congestion moves toward approaching vehicles</em>).</p>
+    </div>
+
+   
+    
+</section>
+
+<!-- ===================== -->
+<section id="out">
+<h2>Shockwave Classification</h2>
+      <div class="model-image">
+        <img src="images/Shockwave_classification.png"
+             alt="Classification of Shockwave">
+    </div>
+    
+  <div class="model-text">
+        <h3>1.Backward Shockwave</h3>
+  </div>
+    
+    <div class="model-text">
+        <p>Car move forward but the traffic jam moves backward (<em>The congestion moves toward approaching vehicles</em>).</p>
+    </div>
+    
+        <p><strong>Example 1</strong></p>
+  <div class="model-text">
+    <p>This illustrates a <em>backward-moving shockwave</em> caused by an accident.</p>
+      <p>Vehicles behind the crash are closely packed while vehicles ahead of the crash continue moving because they have already passed the obstruction.</p>
+  </div>
+    <div class="model-image">
+        <img src="images/roadcrash.png"
+             alt="roadcrash">
+    </div>
+
+          <p><strong>Example 2</strong></p>
+  <div class="model-text">
+    <p>This illustrates a <em>backward-moving shockwave</em> due to a fixed bottleneck.</p>
+      <p>A toll booth is present. Multiple vehicles are lined up waiting to pass through the toll booths.</p>
+      <p>Congestion forms upstream of the toll gate while vehicles leave one by one.</p>
+  </div>
+    <div class="model-image">
+        <img src="images/tollplaza.png"
+             alt="tollplaza">
+    </div>
+
+     <div class="model-text">
+        <h3>2.Forward Shockwaves</h3>
+  </div>
+    <div class="model-text">
+<p>Boundary moves in the same direction as traffic and Recovery region moves forward.</p>
+    </div>
+        
+  <p><strong>Example</strong></p>
+  <div class="model-text">
+    <p>This illustrates a <em>forward-moving shockwave</em> caused by green traffic light.</p>
+      <p>It usually happens when congestion disappears. As the traffic light turns green, cars begin accelerating.</p>
+  </div>
+    <div class="model-image">
+        <img src="images/trafficlight.png"
+             alt="traffic light">
+    </div>
+        
+     <div class="model-text">
+        <h3>3. Stationary Shockwaves</h3>
+  </div>
+ <div class="model-text">
+<p>Boundary does not move. The bottleneck arrival rate equals the departure rate.</p>
+    </div>
+ <p><strong>Example</strong></p>
+  <div class="model-text">
+    <p>This illustrates a <em>stationary shockwave</em> caused by an efficient toll system.</p>
+      <p>Vehicles slow down at the bottleneck (such as a toll booth), but the queue neither grows nor shrinks.</p>
+<p>Imagine vehicles approaching a toll plaza at 1,800 veh/hr, and the toll system can also process 1,800 veh/hr. Cars slow down to pay, then accelerate again.</p>
+<p>The transition between free-flow traffic and slower toll traffic stays at the toll plaza, so the shockwave is stationary.</p>
+  </div>
+    <div class="model-image">
+        <img src="images/toll.png"
+             alt="toll gate">
+    </div>
+    
+</section>  
+<!-- ===================== -->
+<section id="patrol">
+<h2>Shockwave in the Time-Space Diagram</h2>
+    <div class="content-section">
+    <!-- Left: Text -->
+    <div class="text-content">
+        <h3>Region A</h3>
+        <p>Vehicles travel at almost constant speed.</p>
+        <p>Large spacing between vehicles and little to no congestion.</p><br>
+         <h3>Region B</h3>
+        <p>This is the queue (traffic jam).Vehicles are moving slowly or stopped.</p><br>
+         <h3>Region C</h3>
+        <p>Vehicles are recovering from congestion.</p>
+        <p>Drivers start accelerating and speed increases.</p><br>
+        <h3>Region D</h3>
+        <p>Vehicles have left the congested region.</p>
+    </div>
+
+    <!-- Right: Image -->
+    <div class="image-content">
+        <img src="images/ts diagram.png" alt="Time-Space Diagram">
+    </div>
+</div>
+        <div class="model-text">
+        <p><strong>Top View of the Road at an Instant of Time</strong></p>
+        </div>
+
+      <div class="model-image">
+        <img src="images/topview.png"
+             alt="Shockwave Top View">
+    </div>  
+<div class="video-content">
+    <div class="video-box">
+        <video controls>
+            <source src="videos/s2.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="text-box">
+        <h2>Phantom Traffic Jam</h2>
+        <p>Initially, vehicles travel at uniform speed.</p>
+        <p>After sometime, vehicles are catching up with each other wherein some vehicles stop which create a shockwaves or a series of brakes or stops for the succeeding vehicles behind it even though traffic is continuously progressing.
+</p>
+    </div>
+</div>
+    <div class="video-box">
+    <div class="youtube-video">
+        <iframe
+            src="https://www.youtube.com/embed/Rryu85BtALM"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen>
+        </iframe>
+    </div>
+</div>
+</section>
+    
+ <!-- ===================== -->   
+<section id="geometry">
+<h2>Flow Density Curve of the Stream</h2>
+    <p>The flow–density diagram illustrates how traffic transitions from one operating state to another when a slow-moving truck enters and later exits the traffic stream. </p>
+    <p>Each point on the curve represents a traffic state, while the line joining two states represents the shockwave separating them.</p>
+    <div class="content-section">
+    <!-- Left: Text -->
+    <div class="text-content">
+        <h3>State 1</h3>
+        <p>Slope of line 0-1 (50 kph - speed of the vehicle before entry of the truck)</p>
+        <h3>State 2</h3>
+        <p>Slope of line 0-2 (30 kph - speed of the vehicle after entry of the truck)</p>
+         <h3>State 3</h3>
+        <p>Slope of line 1-2 is the velocity of the shockwave:$ \omega = \frac{q_2-q_1}{k_2-k_1} $.</p>
+    </div>
+            <!-- Right: Image -->
+    <div class="image-content">
+        <img src="images/fd1.png" alt="Flow-Density Curve1">
+    </div>
+    </div>
+
+      <div class="content-section">
+    <!-- Left: Text -->
+    <div class="text-content">
+        <p>When the truck decides to exit, the vehicles will slowly accelerate and will travel at the capacity of the roadway, and slowly will reach normal speed at 50 kph.</p><br>
+        <h3>State 1</h3>
+        <p>Slope of line 0-1 (Before entry of the truck)</p>
+        <h3>State 2</h3>
+        <p>Slope of line 1-2 (After entry of the truck)</p>
+         <h3>State 3</h3>
+        <p>Slope of line 2-3 is the velocity of the shockwave:$ \omega = \frac{q_3-q_2}{k_3-k_2} $.</p>
+        <p>$q_3=q_{\max}$</p>
+        <p>$k_3=\frac{k_j}{2}$</p>
+    </div>
+            <!-- Right: Image -->
+    <div class="image-content">
+        <img src="images/fd2.png" alt="Flow-Density Curve2">
+    </div>
+    </div>
+</section>
+
+    
+  <!-- ===================== --> 
+
+<section id="requirements">
+<h2>Parking Requirements</h2>
+<p><strong>Problem 1</strong></p>
+<div class="model-text">
+<p>The relation between speed and density on a section of highway is given by the following relation: $𝑢=100−0.8𝑘$</p>
+<p>At a flow of 1,000 veh/hr, a slow moving truck with speed of 20 kph enters the road and exits after 800 m. Estimate the speed of the shockwaves.</p><br>
+</div>
+    
+
+
+
+
+       <div class="visitor-counter">
+<a href="https://info.flagcounter.com/J9f9"><img src="https://s01.flagcounter.com/count2/J9f9/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_12/viewers_0/labels_0/pageviews_0/flags_0/percent_1/" 
+alt="Flag Counter" 
+border="0"></a>
+</div>
+
+     <!-- ===================== --> 
+  <footer>© 2025 Lester Jay Ollero</footer>
+
+</main>
+
+</div>
+
+<script>
+
+const sections=document.querySelectorAll("section");
+const navLinks=document.querySelectorAll(".sidebar a");
+window.addEventListener("scroll",()=>{
+let current="";
+sections.forEach(section=>{
+const sectionTop=section.offsetTop-120;
+if(pageYOffset>=sectionTop){
+current=section.getAttribute("id");
+}
+});
+
+navLinks.forEach(link=>{
+link.classList.remove("active");
+if(link.getAttribute("href")==="#"+current){
+link.classList.add("active");
+}
+
+});
+
+});
+</script>
+    <script>
+window.MathJax = {
+  tex: {
+    inlineMath: [['$', '$'], ['\\(', '\\)']]
+  }
+};
+</script>
+<script
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"
+  async>
+</script>
+
+</body>
+</html>
