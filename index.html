@@ -240,7 +240,6 @@ Parking Studies help determine how much parking is available, how it is being us
 <!-- ===================== -->
 <section id="out">
 <h2>In and Out Parking Survey</h2>
-      <div class="model-text">
         <p>An In-and-Out Survey records vehicles entering and leaving a parking facility during the survey period.</p>
         <p>This method is useful for determining parking accumulation, parking demand, and turnover.</p>
            <p>Basic Data Collected:
@@ -261,12 +260,49 @@ Parking Studies help determine how much parking is available, how it is being us
                <li>Calculate parking accumulation and other parking indicators.</li>
           </ul> 
            </p>
-      </div>
 
+     <p><strong>Sample Problem:</strong></p><br>
+     <p>In-Out Survey is conducted for one hour for a parking area with 60 bays. The initial count of cars parked was 34. The survey yielded the following information.
+</p>
       <div class="model-image">
-        <img src="images/topview.png"
-             alt="Shockwave Top View">
+        <img src="images/in1.png"
+             alt="Sample Problem In-and-Out Survey1">
     </div> 
+     <p><strong><span class="red">Solution:</span></strong></p><br>
+     <p>The number of vehicles parked at a particular time can be determined using:</p>
+     <p>\[\text{Accumulation}=\text{Previous Accumulation}+\text{Vehicles In}-\text{Vehicles Out}\]</p>
+     
+     <div class="model-image">
+        <img src="images/in2.png"
+             alt="Sample Problem In-and-Out Survey2">
+     </div>
+     <p>Parking Load is computed as:</p><br>
+          <p>\[\text{Parking Load}=(\text{Accumulation})(\text{Time Interval})\]</p>
+          <p>\[\text{Parking Load for 0--15 mins}=(31\ \text{veh})\left(\frac{15\ \text{mins}}{60\ \text{mins}}\right)\]</p>
+<div class="model-image">
+        <img src="images/in3.png"
+             alt="Sample Problem In-and-Out Survey3">
+</div>
+     <div class="model-image">
+        <img src="images/in4.png"
+             alt="Sample Problem In-and-Out Survey4">
+     </div>
+     <p>The total parking load for the entire duration is 31 veh-hrs.</p><br>
+     <p>The Parking Index is computed as:</p>
+     <p>
+  \[
+  \text{Parking Index}
+  =
+  \frac{\text{Parking Load}}
+       {\text{Total Time Interval}}
+  \times 100
+  \]
+</p>
+  <div class="model-image">
+        <img src="images/in5.png"
+             alt="Sample Problem In-and-Out Survey5">
+     </div>
+    <p><em>However, this does not provide the data regarding the time duration for which a particular vehicle parked, therefore, it cannot be used to define or to decide the parking fee.</em></p>      
 </section>  
      
 <!-- ===================== -->
