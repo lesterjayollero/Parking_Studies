@@ -31,6 +31,7 @@ SIDEBAR
 <li><a href="#out">In and Out Parking Survey</a></li>
 <li><a href="#patrol">Parking Patrol Survey</a></li>
 <li><a href="#geometry">Different Types of Parking</a></li>
+<li><a href="#autoturn">Swept Path Analysis</a></li>
 <li><a href="#requirements">Parking Requirements</a></li>
 </ul>
 
@@ -522,10 +523,49 @@ Parking Studies help determine how much parking is available, how it is being us
 </div> 
      
 </section>
+     
+<section id="autoturn">
+<h2>Swept Path Analysis</h2>
+        <div class="model-text">
+        <p>AutoTURN is a vehicle-path simulation software used to evaluate whether vehicles can safely and efficiently maneuver within a parking lot. In a commercial parking lot, the proposed layout (including parking spaces, drive aisles, entrances/exits, and circulation routes) is tested using the turning paths of representative design vehicles such as cars, delivery trucks, buses, or other vehicles.</p>
+        </div>
+     
+          <div class="content-section">
+    <!-- Left: Text -->
+    <div class="text-content">
+        <h3>Test Vehicle</h3>
+       <p>The profile of the test vehicle used to assess the road geometry of the development's parking area is shown.</p>
+       <p>The <strong>Toyota Fortuner</strong> is used as a design vehicle in the AutoTURN simulation because its dimensions and turning characteristics provide a practical representation of a typical passenger vehicle/SUV that may use a commercial drive-thru and parking facility.</p>      
+       <p>Its vehicle width, track width, wheelbase, and steering-lock characteristics allow AutoTURN to generate realistic swept paths and turning envelopes.</p>
+    </div>
+         
+     <!-- Right: Image -->
+    <div class="image-content">
+        <img src="images/toyota.png" alt="Toyota Fortuner">
+    </div>
+</div> 
+     <p>\[\text{Swept Path Analysis at the Vehicle Entrance to Drive Through and Parking Area}\]</p>
+     <div class="model-text">
+          <p>The figure below illustrates the swept path analysis of vehicles bound to car parking. </p>
+          <p>Conflict is seen on the path of vehicles entering either (i) the parking areas or (ii) drive thru and vehicles maneuvering in or out of parking slots. However, this is not really be a cause of concerns given that these are all expected to be moving at very slow speed.  Further, the deployment of traffic aides may help ensure that collisions will not occur at these conflict points. </p>
+     </div>
+     
+     <div class="model-image">
+        <img src="images/autoturn1.png"
+             alt="Swept Path Analysis Parking and Drive Thru">
+     </div>
 
+      <p>\[\text{Swept Path Analysis at the Drive Through}\]</p>
+     <div class="model-text">
+     <p>The figure below shows the simulated path of vehicles at the drive thru facility to and from the main road. As shown below, a mid-size SUV is able to enter and exit without any immediate curb conflict. The designated waiting area can accommodate an existing SUV without impeding regular flow at the drive-thru. </p>
+     </div>
+      <div class="model-image">
+        <img src="images/autoturn2.png"
+             alt="Swept Path Analysis Drive Thru">
+     </div>
+</section>
     
   <!-- ===================== --> 
-
 <section id="requirements">
 <h2>Parking Requirements</h2>
 <p>Parking requirements determine the minimum number of parking spaces that may be required for a particular land use or development.</p>    
@@ -534,10 +574,6 @@ Parking Studies help determine how much parking is available, how it is being us
 <p>Parking requirements should be checked against the applicable NBC provisions and current implementing rules for the specific building occupancy and development type.</p>
 </section>
     
-
-
-
-
 <div class="visitor-counter">
 <a href="http://s01.flagcounter.com/more/PB"><img src="https://s01.flagcounter.com/count/PB/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_12/viewers_0/labels_0/pageviews_0/flags_0/percent_1/" alt="Flag Counter" border="0"></a>
 </div>
